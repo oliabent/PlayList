@@ -1,10 +1,4 @@
 
-/*.MusicPlayer {
-	display: flex;
-	justify-content: flex-end;
-	background-color: #000;
-}*/
-
 body {
 	background-color: #fafafa;
 }
@@ -27,7 +21,7 @@ p:before { content: "✩ " }
 div.HotLinks {
 	width: 296px;
 	height: 572px;
-	background-color: white;
+	background-color: #fafafa;
 	margin-top: -580px;
 
 }
@@ -71,17 +65,40 @@ div.HotLinks {
 
 .slack {
 	position: relative;
-	top: -110px;
-	left:180px;
+	top: -100px;
+	left: 180px;
 	
 }
 
 
 div.calc {
-	color: green;
-	margin-top: -572px;
-	margin-left: 304px;
+	margin-top: -180px;
+	margin-left: 20px;
 	width: 190px;
 	height: 161px;
 	
+}
+
+div.blocnot {
+width: 648px;
+height: 250px;
+margin-top: -543px;
+margin-left: 300px;
+padding: 20px
+
+}
+
+textarea {
+    width:100%;
+    height:100%;
+    resize: none;
+   -webkit-box-shadow: 10px 10px 23px 0px rgba(193,193,193,1);
+-moz-box-shadow: 10px 10px 23px 0px rgba(193,193,193,1);
+box-shadow: 10px 10px 23px 0px rgba(193,193,193,0.8);
+border-radius: 10px;
+background-color: #fafafa;
+outline: none;
+	-moz-appearance: none;
+	border: 1px solid #999;
+
 }
