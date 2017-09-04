@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Olia's PlayList</title>
 	<link rel="stylesheet" href="styles.css">
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="calc.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 </head>
 <body>
 
-	<div >
-		
-			<p>Vivienne Mort - Пташечка</p>
+	
+	<div class="MusicPlayerChild"><p>Vivienne Mort - Пташечка</p>
 				<audio id="audio1" controls preload="none" src="http://ol4.mp3party.net/online/4736/4736080.mp3"></audio>
 			<p>Vivienne Mort - Лети</p>
 				<audio  id="audio2" controls preload="none" src="http://naitimp3.ru/download/-8284423.3a0b6836e4253f3a582843d57084681f.Vml2aWVubmUgTW9ydA,,.0JvQtdGC0LggKHBpYW5vKQ,,.130104.mp3"></audio>
@@ -24,10 +24,7 @@
 				<audio id="audio6" controls preload="none" src="http://ol6.mp3party.net/online/8450/8450633.mp3"></audio>
 			
 			
-	</div>
-			
-	<div>
-			<p>Lena Meyer - Not Following</p>
+		<p>Lena Meyer - Not Following</p>
 				<audio  id="audio7" controls preload="none" src="http://cdndl.zaycev.net/61637/721346/Lena+Meyer-Landrut_-_Not+Following.mp3"></audio>
 			<p>Lena Meyer - Pink Elephant</p>
 				<audio id="audio8" controls preload="none" src="http://cdndl.zaycev.net/61637/1624069/Lena+Meyer-Landrut_-_Pink+Elephant.mp3"></audio>
@@ -39,10 +36,7 @@
 				<audio  id="audio11" controls preload="none" src="http://cdndl.zaycev.net/906312/4555759/Luis+Fonsi+feat.+Daddy+Yankee_-_Despacito.mp3"></audio>
 			<p>Imagine Dragons – Thunder</p>
 				<audio  id="audio12" controls preload="none" src="http://cdndl.zaycev.net/265742/4551911/Imagine+Dragons_-_Thunder.mp3"></audio>
-	</div>
-		
-	
-	<div>
+
 		<p>Океан Ельзи – Сосни</p>
 				<audio  id="audio13" controls preload="none" src="http://cdndl.zaycev.net/125355/3925912/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD+%D0%95%D0%BB%D1%8C%D0%B7%D0%B8_-_%D0%A1%D0%BE%D1%81%D0%BD%D0%B8.mp3s"></audio>
 			<p>Океан Ельзи – Зелені очі</p>
@@ -55,7 +49,80 @@
 				<audio  id="audio17" controls preload="none" src="http://cdndl.zaycev.net/125355/4337883/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD+%D0%95%D0%BB%D1%8C%D0%B7%D0%B8_-_%D0%A1%D0%BE%D0%BD%D1%86%D0%B5.mp3"></audio>
 			<p>Океан Ельзи – Коли Навколо Нi Душi</p>
 				<audio  id="audio18" controls preload="none" src="http://cdndl.zaycev.net/125355/1970622/%D0%9E%D0%BA%D0%B5%D0%B0%D0%BD+%D0%95%D0%BB%D1%8C%D0%B7%D0%B8_-_%D0%9A%D0%BE%D0%BB%D0%B8+%D0%9D%D0%B0%D0%B2%D0%BA%D0%BE%D0%BB%D0%BE+%D0%9Di+%D0%94%D1%83%D1%88i+.mp3"></audio>	
-	<div>
+	</div>
+
+	<div class="HotLinks">
+			
+		<div class="YouTube">
+			<a target="_blank" href="https://www.youtube.com/"> <img src="img/YouTube.png" alt="YouTube" width="120">
+			</a>
+		</div>
+
+		<div class="facebook">
+			<a target="_blank" href="https://www.facebook.com/"> <img src="img/facebook.png" alt="facebook" width="130">
+			</a>
+		</div>
+
+		<div class="translate">
+			<a target="_blank" href="https://translate.google.com/"> <img src="img/translate.png" alt="translate" width="60">
+			</a>
+		</div>
+
+		<div class="cursor_facebook">
+			<a target="_blank" href="https://www.facebook.com/groups/cursor.education.reactive.ninja/"> <img src="img/cursor_facebook.jpg" alt="cursor_facebook" width="170">
+			</a>
+		</div>
+
+		<div class="trello">
+			<a target="_blank" href="https://trello.com/b/H5G77Q5r/homeworks-hmk-reactive-ninja"> <img src="img/trello.png" alt="trello" width="60">
+			</a>
+		</div>
+
+		<div class="slack">
+			<a target="_blank" href="https://cursor-education.slack.com/messages/G6FTJ5GE5/details/"> <img src="img/slack.png" alt="slack" width="60">
+			</a>
+		</div>
+
+	</div>
+			
+	 
+
+	<div class="calc">
+		<form name="calc" id="calculator">
+			<table>
+				<tr>
+					<td>
+						<input type="text" name="input" size="16" class="display">
+					</td>
+				</tr>
+				<tr>
+					<td class="buttons">
+						<input type="button" name="one" value="1" OnClick="calc.input.value += '1'">
+						<input type="button" name="two" value="2" OnClick="calc.input.value += '2'">
+						<input type="button" name="three" value="3" OnClick="calc.input.value += '3'">
+						<input type="button" name="add" value="+" OnClick="calc.input.value += '+'">
+							<br>
+						<input type="button" name="four" value="4" OnClick="calc.input.value += '4'">
+						<input type="button" name="five" value="5" OnClick="calc.input.value += '5'">
+						<input type="button" name="six" value="6" OnClick="calc.input.value += '6'">
+						<input type="button" name="sub" value="-" OnClick="calc.input.value += '-'">
+							<br>
+						<input type="button" name="seven" value="7" OnClick="calc.input.value += '7'">
+						<input type="button" name="eight" value="8" OnClick="calc.input.value += '8'">
+						<input type="button" name="nine" value="9" OnClick="calc.input.value += '9'">
+						<input type="button" name="mul" value="x" OnClick="calc.input.value += '*'">
+							<br>
+						<input type="button" name="clear" value="c" OnClick="calc.input.value = ''">
+						<input type="button" name="zero" value="0" OnClick="calc.input.value += '0'">
+						<input type="button" name="doit" value="=" OnClick="calc.input.value = eval(calc.input.value)">
+						<input type="button" name="div"  value="/" OnClick="calc.input.value += '/'">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+			
+
 	
 <script type="text/javascript" src="main.js"></script>
 

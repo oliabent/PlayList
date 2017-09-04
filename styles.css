@@ -1,27 +1,87 @@
 
-body {
+/*.MusicPlayer {
 	display: flex;
-	justify-content: space-around;
-	background-color: #fafafa;
-	background-blend-mode: darken;
-	
+	justify-content: flex-end;
+	background-color: #000;
+}*/
 
-	}
-	audio {
-		
-	}
+body {
+	background-color: #fafafa;
+}
+div.MusicPlayerChild {
+	height: 580px;
+	width: 330px;
+	background-color: #fafafa;
+	overflow: scroll;
+	margin-left: 1000px;
+}
 p {
 	color: black;
 	text-shadow: 2px 1px 2px rgba(90, 90, 90, 0.5);;
 	 font-family:comic sans ms;
-
-
 }
 
-
-div {
-
-	background-color: #fafafa;
-}
 
 p:before { content: "✩ " }
+
+div.HotLinks {
+	width: 296px;
+	height: 572px;
+	background-color: white;
+	margin-top: -580px;
+
+}
+
+.YouTube {
+	position: relative;
+	left: 20px;
+	top: 20px;
+
+}
+
+.facebook {
+	position: relative;
+	left: 70px;
+	top: 20px;
+	
+}
+
+.translate {
+	position: relative;
+	left: 205px;
+	top: -145px;
+	
+	
+}
+
+
+.cursor_facebook {
+	position: relative;
+	top: -50px;
+	
+	
+}
+
+.trello {
+	position: relative;
+	top: -150px;
+	left:200px;
+	
+}
+
+.slack {
+	position: relative;
+	top: -110px;
+	left:180px;
+	
+}
+
+
+div.calc {
+	color: green;
+	margin-top: -572px;
+	margin-left: 304px;
+	width: 190px;
+	height: 161px;
+	
+}
