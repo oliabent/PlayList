@@ -18,6 +18,7 @@ p {
 
 p:before { content: "✩ " }
 
+
 div.HotLinks {
 	width: 296px;
 	height: 572px;
@@ -35,8 +36,8 @@ div.HotLinks {
 
 .facebook {
 	position: relative;
-	left: 70px;
-	top: 20px;
+	left: 75px;
+	top: 15px;
 	
 }
 
@@ -70,9 +71,16 @@ div.HotLinks {
 	
 }
 
+.ig {
+	position: relative;
+	top: -350px;
+	left: 10px;
+	
+}
+
 
 div.calc {
-	margin-top: -180px;
+	margin-top: -220px;
 	margin-left: 20px;
 	width: 190px;
 	height: 161px;
@@ -80,10 +88,10 @@ div.calc {
 }
 
 div.blocnot {
-width: 648px;
-height: 250px;
-margin-top: -543px;
-margin-left: 300px;
+width: 633px;
+height: 475px;
+margin-top: -565px;
+margin-left: 280px;
 padding: 20px
 
 }
@@ -100,5 +108,8 @@ background-color: #fafafa;
 outline: none;
 	-moz-appearance: none;
 	border: 1px solid #999;
+	font-family:comic sans ms;
+	padding: 15px;
+	font-size: 16px;
 
 }
