@@ -106,5 +106,9 @@ track17.addEventListener("ended",function() {
         track18.play();
     });
 
+track18.addEventListener("ended",function() {
+     
+        track1.play();
+    });
 
 
