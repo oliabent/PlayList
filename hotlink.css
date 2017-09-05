@@ -1,0 +1,112 @@
+.YouTube {
+	position: relative;
+	left: 20px;
+	top: 20px;
+
+}
+
+
+
+.facebook {
+	position: relative;
+	left: 70px;
+	top: 5px;
+	
+}
+
+.translate {
+	position: relative;
+	left: 205px;
+	top: -145px;
+	
+	
+}
+
+
+.cursor_facebook {
+	position: relative;
+	top: -50px;
+	
+	
+}
+
+.trello {
+	position: relative;
+	top: -150px;
+	left:200px;
+	
+}
+
+.slack {
+	position: relative;
+	top: -105px;
+	left: 145px;
+	
+}
+
+.ig {
+	position: relative;
+	top: -350px;
+	left: 10px;
+	
+}
+
+
+.sportlife {
+	position: relative;
+	top: -190px;
+	left: 5px;
+	
+}
+
+.sinoptik {
+	position: relative;
+	top: -430px;
+	left: 190px;
+	
+}
+
+
+.gmail {
+	position: relative;
+	top: -245px;
+	left: 225px;
+	
+}
+
+.google_calendar {
+	position: relative;
+	top: -379px;
+	left: 235px;
+	
+}
+
+.peerroo {
+	margin-top: -450px;
+	margin-left: 400px;
+	
+}
+img:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
