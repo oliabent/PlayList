@@ -36,8 +36,8 @@ div.HotLinks {
 
 .facebook {
 	position: relative;
-	left: 75px;
-	top: 15px;
+	left: 70px;
+	top: 5px;
 	
 }
 
@@ -67,7 +67,7 @@ div.HotLinks {
 .slack {
 	position: relative;
 	top: -100px;
-	left: 180px;
+	left: 150px;
 	
 }
 
@@ -78,6 +78,20 @@ div.HotLinks {
 	
 }
 
+
+.sportlife {
+	position: relative;
+	top: -190px;
+	left: 5px;
+	
+}
+
+.sinoptik {
+	position: relative;
+	top: -430px;
+	left: 190px;
+	
+}
 
 div.calc {
 	margin-top: -220px;
