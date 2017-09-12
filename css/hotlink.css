@@ -81,6 +81,18 @@
 	
 }
 
+.git {
+	position: relative;
+	top:-260px;
+	left: 230px;
+}
+
+.playbotton {
+	position: relative;
+	top: -690px;
+	left: 1300px;
+}
+
 .peerroo {
 	margin-top: -450px;
 	margin-left: 400px;

@@ -1,0 +1,38 @@
+#playlist {
+	list-style: none;
+}
+
+#playlist li a{
+	color: #000;
+	text-decoration: none;
+	text-shadow: 2px 1px 2px rgba(90, 90, 90, 0.5);
+	 font-family:comic sans ms;
+}
+
+
+#playlist li a:before { content: "✩ " }
+
+#playlist .current-song a{
+	color: blue;
+	
+}
+
+#on {
+	height: 8px;
+	width: 10px;
+	background: red;
+}
+
+
+.controls {
+	margin-left: 1000px;
+	position: relative;
+	top: 300px;
+}
+
+
+.ToDoList {
+	position: relative;
+	top: 330px;
+	left: 350px;
+}

@@ -1,14 +1,23 @@
 @import "hotlink.css" screen;
- 
+@import "calc.css" screen;
+@import "audioPlayer.css" screen;
+
 body {
 	background-color: #fafafa;
+	position: fixed;
+	margin-top: -30px;
+
 }
 div.MusicPlayerChild {
-	height: 580px;
-	width: 330px;
+	height: 240px;
+	width: 430px;
 	background-color: #fafafa;
 	overflow: scroll;
 	margin-left: 1000px;
+	position: relative;
+	top: -320px;
+	margin-top: 350px;
+	left: -30px;
 }
 p {
 	color: black;
@@ -28,6 +37,8 @@ div.HotLinks {
 
 }
 
+.MusicPlayerChild::-webkit-scrollbar { width: 0; }
+
 
 
 
@@ -40,13 +51,15 @@ div.calc {
 }
 
 div.blocnot {
-width: 633px;
-height: 475px;
+width: 600px;
+height: 440px;
 margin-top: -565px;
 margin-left: 280px;
 padding: 20px
 
 }
+
+
 
 textarea {
     width:100%;
@@ -64,4 +77,36 @@ outline: none;
 	padding: 15px;
 	font-size: 16px;
 
+}
+
+
+div.ToDoList {
+width: 280px;
+height: 253px;
+margin-top: -492px;
+margin-left: 630px;
+padding: 20px;
+display: flex;
+justify-content: center;
+
+}
+
+.playbotton {
+	position: relative;
+	top: -690px;
+	left: 1300px;
+}
+
+.ToDoList {
+	position: relative;
+	top: 330px;
+	left: 350px;
+	height: 240px;
+	width: 430px;
+}
+
+.git {
+	position: relative;
+	top:-260px;
+	left: 230px;
 }
